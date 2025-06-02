@@ -1,8 +1,9 @@
 class Node():
-    def __init__(self, state, parent, action):
+    def __init__(self, state, parent, action, pathLen):
         self.state = state
         self.parent = parent
         self.action = action
+        self.pathLen = pathLen
 
 
 class StackFrontier():
